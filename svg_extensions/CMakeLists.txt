@@ -10,7 +10,7 @@ ul_include(defaults.cmake)
 
 set(UL_ADDITIONAL_CLANG_FORMAT_DIRS "." CACHE STRING "" FORCE)
 ul_include(clang-format.cmake)
-ul_include(githooks.cmake)
+#ul_include(githooks.cmake)
 
 add_library(${PROJECT_NAME} STATIC
     ../simple_svg_1.0.0.hpp
